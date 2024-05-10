@@ -45,7 +45,7 @@ pipeline {
         success {
             emailext attachLog: true,
             compressLog: true,
-            to: 'adity998833@gmail.com',
+            to: 'aditya998833@gmail.com',
             body: 'The build was successful. Log is available at $JENKINS_HOME/jobs/$JOB_NAME/builds/$BUILD_NUMBER/log',
             subject: 'Successful Deployment - Jenkins'
         }
